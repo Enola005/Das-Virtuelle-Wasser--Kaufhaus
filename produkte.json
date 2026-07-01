@@ -1,0 +1,42 @@
+[
+    {
+        "id":"bleistift",
+        "name":"✏️ Bleistift",
+        "wasser":1
+    },
+    {
+        "id":"stueck_seife",
+        "name":"🧼 Stück Seife",
+        "wasser":75
+    },
+    {
+        "id":"kaffee",
+        "name":"☕️ Kaffee",
+        "wasser":140
+    },
+    {
+        "id":"stofftier",
+        "name":"🧸 Stofftier",
+        "wasser":1250
+    },
+    {
+        "id":"basketball",
+        "name":"🏀 Basketball",
+        "wasser":2500
+    },
+    {
+        "id":"kleine_ledertasche",
+        "name":"👜 Kleine Ledertasche",
+        "wasser":5000
+    },
+    {
+        "id":"jeans",
+        "name":"👖 Jeans",
+        "wasser":8500
+    },
+    {
+        "id":"laptop",
+        "name":"💻 Laptop",
+        "wasser":20000
+    }
+]

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name=""viewport" content=""width=device-width, initial-scale="1.0">
+    <title>Das Virtuelle Wasser Kaufhaus</title>
+</head>
+<body>
+
+    <h1>💧 Das "Virtuelle Wasser"-Kaufhaus</h1>
+    <p>Wie viel Wasser steckt in deinem Einkauf?</p>
+
+    <h2>🛒 Einkaufsbon</h2>
+
+    <ul id="warenkorb"></ul>
+
+    <h2>Gesamt:</h2>
+    <h1 id="gesamt">0 Liter</h1>
+
+    <button onclick="scannerStarten()">📷 Produkt scannen</button>
+
+    <div id="reader" style="width:300px; margin:20px auto;"></div>
+
+    <button onclick="resetBon()">🗑 Neuer Einkauf</button>
+</div>
+
+<script src="https://unpkg.com/html5-qrcode"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
