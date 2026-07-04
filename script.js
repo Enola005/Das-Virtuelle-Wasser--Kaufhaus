@@ -31,7 +31,12 @@ function anzeigen(){
 
     });
 
-    document.getElementById("gesamt").innerHTML=gesamt+" Liter";
+    document.getElementById("gesamt").innerHTML = gesamt + " Liter";
+
+    let badewannen = Math.round(gesamt / 150);
+
+    document.getElementById("vergleich").innerHTML =
+    "🛁 Das entspricht ungefähr <b>" + badewannen + "</b> Badewannen Wasser.";
 
 }
 

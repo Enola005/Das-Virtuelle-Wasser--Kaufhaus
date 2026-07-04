@@ -1,40 +1,147 @@
-body{
-    front-family: Arial, sans-serif;
-    backround: #dff6ff;
-    text-align: center;
+body{    
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(180deg,#dff5ff,#bde8ff);
 }
-    
+
 .container{
-    width:80%;
-    max-width:600px;
-    margin:auto;
-    background: white;
-    padding:30px;
-    border-radius:15px;
-    margin-top:40px;
-    box-shadow:0px 0px 10px gray;
+
+    max-width:650px;
+
+    margin:40px auto;
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+h1{
+
+    color:#008dcf;
+
+    text-align:center;
+
+    margin-bottom:10px;
+
+}
+
+p{
+
+    text-align:center;
+
+    color:#666;
+
+}
+
+h2{
+
+    margin-top:35px;
+
+    color:#333;
+
+}
+
+#warenkorb{
+
+    list-style:none;
+
+    padding:0;
+
+    margin-top:20px;
+
+}
+
+#warenkorb li{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    background:#f5fbff;
+
+    margin:10px 0;
+
+    padding:14px 18px;
+
+    border-radius:12px;
+
+    font-size:20px;
+
+    border-left:6px solid #00a8e8;
+
+}
+
+#gesamt{
+
+    text-align:center;
+
+    color:#0096d6;
+
+    font-size:40px;
+
+    margin-bottom:10px;
+
 }
 
 button{
-    padding:15px;
-    front-size:18px;
-    background:#0099ff;
-    color:white;
+
+    width:100%;
+
+    padding:18px;
+
+    font-size:20px;
+
     border:none;
-    border-radius:10px;
+
+    border-radius:12px;
+
+    margin-top:15px;
+
     cursor:pointer;
+
+    transition:.2s;
+
 }
 
 button:hover{
-    background:#0077cc;
+
+    transform:scale(1.02);
+
 }
 
-ul{
-    list-style:none;
-    padding:0;
+button:first-of-type{
+
+    background:#00a8e8;
+
+    color:white;
+
 }
 
-li{
-    front-size:22px;
-    margin:10px;
+button:last-of-type{
+
+    background:#ef5350;
+
+    color:white;
+
+}
+
+#reader{
+
+    margin:25px auto;
+
+}
+
+.scanButton{
+
+    padding:28px;
+
+    font-size:28px;
+
+    font-weight:bold;
+    
 }

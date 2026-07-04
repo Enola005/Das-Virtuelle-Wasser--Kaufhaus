@@ -2,13 +2,19 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta name=""viewport" content=""width=device-width, initial-scale="1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    
     <title>Das Virtuelle Wasser Kaufhaus</title>
 </head>
 <body>
 
     <h1>💧 Das "Virtuelle Wasser"-Kaufhaus</h1>
-    <p>Wie viel Wasser steckt in deinem Einkauf?</p>
+
+    <p>
+    Scanne verschiedene Produkte und entdecke, wie viel <b>virtuelles Wasser</b> für ihre Herstellung benötigt wurde.
+    </p>
 
     <h2>🛒 Einkaufsbon</h2>
 
@@ -17,12 +23,16 @@
     <h2>Gesamt:</h2>
     <h1 id="gesamt">0 Liter</h1>
 
-    <button onclick="scannerStarten()">📷 Produkt scannen</button>
+    <p id="vergleich"></p>
+
+    <button class="scanButton" onclick="scannerStarten()">📷 Produkt scannen</button>
 
     <div id="reader" style="width:300px; margin:20px auto;"></div>
 
     <button onclick="resetBon()">🗑 Neuer Einkauf</button>
-</div>
+
+    <p style="margin-top:30px;color:#777;font-size:14px">
+    Vielen Dank für Deinen Einkauf! 💧</p>
 
 <script src="https://unpkg.com/html5-qrcode"></script>
 <script src="script.js"></script>
